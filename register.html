@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>College Event Management System</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="register.html">Register</a>
+        <a href="admin.html">Admin</a>
+    </nav>
+</header>
+
+<div class="form-container">
+
+    <h2>Event Registration</h2>
+
+    <form id="registrationForm">
+
+        <label>Student Name</label>
+        <input type="text" id="name" required>
+
+        <label>Roll Number</label>
+        <input type="text" id="roll" required>
+
+        <label>Email</label>
+        <input type="email" id="email" required>
+
+        <label>Select Event</label>
+        <select id="event" required>
+            <option value="">Select Event</option>
+            <option>Annual Function</option>
+            <option>Tech Fest</option>
+            <option>Sports Day</option>
+        </select>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <p id="message"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
